@@ -134,3 +134,27 @@ tbody td:first-child {
   background-color: #ffffff;
   border: 1px solid black;
 }
+
+@media screen and (max-width: 770px) {
+  thead > tr {
+    padding: 0.7rem;
+    font-size: 1.2rem;
+  }
+
+  .table-body td:first-child {
+    border-left: none;
+  }
+
+  .table-body td {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .search-wrapper {
+    width: 70%;
+  }
+
+  .back-button {
+    width: 50%;
+  }
+}
