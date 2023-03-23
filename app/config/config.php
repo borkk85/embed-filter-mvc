@@ -2,6 +2,6 @@
 
 define('APPROOT', dirname(dirname(__FILE__)));
 
-define('URLROOT', 'http://localhost/embed-filter-mvc/public');
+define('URLROOT', 'https://evening-savannah-34752.herokuapp.com');
 
 define('SITENAME', 'FilterApp');
