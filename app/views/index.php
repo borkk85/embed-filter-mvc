@@ -20,6 +20,6 @@
       <?php endforeach; ?>
     </tbody>
   </table>
-  <button class="back-button">To Filter Heaven</button>
+  <button class="back-button">Back</button>
 </div>
 <?php require APPROOT . '/views/includes/footer.php'; ?>
