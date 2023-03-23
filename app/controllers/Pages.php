@@ -12,7 +12,7 @@ class Pages extends Controller {
     public function index() {
         
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            // Get the form values
+            
             $options = [
                 'sort_rating' => $_POST['sort_rating'],
                 'minimum_rating' => $_POST['minimum_rating'],
@@ -20,10 +20,10 @@ class Pages extends Controller {
                 'text_priority' => $_POST['text_priority']
             ];
             
-            // Get the filtered reviews
+            
             $filtered_reviews = $this->filter->filterReviews($this->review->getReview(), $options);
         } else {
-            // Get all reviews when no filter is applied
+            
             $filtered_reviews = $this->review->getReview();
         }
         
